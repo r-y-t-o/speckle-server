@@ -74,7 +74,7 @@ services:
   # Public domain points HERE in Coolify. Internal port 8080.
   # No host port binding — Coolify's Traefik handles 80/443.
   speckle-ingress:
-    image: speckle/speckle-docker-compose-ingress:latest
+    image: speckle/speckle-docker-compose-ingress:2.31.3
     restart: always
     expose:
       - "8080"
